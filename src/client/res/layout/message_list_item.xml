@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_height="wrap_content" 
+   android:gravity="left|center"
+   android:layout_width="wrap_content" 
+   android:paddingBottom="5px"
+   android:paddingTop="5px" 
+   android:paddingLeft="5px"
+   android:id="@+id/eachmessage"
+   >
+    <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content">
+	    <ImageView
+	       android:id="@+id/DateRelated"
+	       android:layout_width="20dp"
+	       android:layout_height="20dp"
+	       android:layout_marginRight="6dip"
+	        />
+	     <ImageView
+	       android:id="@+id/LocationRelated"
+	       android:layout_width="20dp"
+	       android:layout_height="20dp"
+	       android:layout_marginRight="6dip"
+	        />
+	    <ImageView
+	       android:id="@+id/movableMsg"
+	       android:layout_width="20dp"
+	       android:layout_height="20dp"
+	       android:layout_marginRight="6dip"
+	       />		     
+	    <ImageView
+	       android:id="@+id/publicMessage"
+	       android:layout_width="20dp"
+	       android:layout_height="20dp"
+	       android:layout_marginRight="6dip"
+	       />	     
+	    <ImageView
+	       android:id="@+id/WeatherRelated"
+	       android:layout_width="20dp"
+	       android:layout_height="20dp"
+	       android:layout_marginRight="6dip"
+	       />
+	    <ImageView
+	       android:id="@+id/withImage"
+	       android:layout_width="20dp"
+	       android:layout_height="20dp"
+	       android:layout_marginRight="6dip"
+	       />
+	    
+    </LinearLayout>            
+    <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="fill_parent" 
+       android:layout_height="wrap_content">
+      
+   <TextView android:id="@+id/messageBody"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="Messagebody"
+      android:layout_weight="1"
+      />
+	   <LinearLayout
+	       android:orientation="horizontal"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content">
+		  <TextView android:id="@+id/messageIdLabel" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="10px" 
+		      android:textColor="#0099CC"
+		      android:text="Message ID:"
+		      />
+		  <TextView android:id="@+id/messageId" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="5px" 
+		      android:textColor="#0099CC"/>
+	  </LinearLayout>   
+	   <LinearLayout
+	       android:orientation="horizontal"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content">
+		  <TextView android:id="@+id/senderIdLabel" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="10px" 
+		      android:textColor="#0099CC"
+		      android:text="Sender ID:"
+		      />
+		  <TextView android:id="@+id/senderId" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="5px" 
+		      android:textColor="#0099CC"/>
+		  <TextView android:id="@+id/senderNameLabel" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="10px" 
+		      android:textColor="#0099CC"
+		      android:text="Sender Name:"
+		      />
+		  <TextView android:id="@+id/senderName" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="5px" 
+		      android:textColor="#0099CC"/>		  
+	  </LinearLayout>
+	   <LinearLayout
+	       android:orientation="horizontal"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content">
+		  <TextView android:id="@+id/senderEmailLabel" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="10px" 
+		      android:textColor="#0099CC"
+		      android:text="Sender Email"
+		      />
+		  <TextView android:id="@+id/senderEmail" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="5px" 
+		      android:textColor="#0099CC"/>
+	  </LinearLayout>		  	  
+	   <LinearLayout
+	       android:orientation="horizontal"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content">
+		  <TextView android:id="@+id/receiverIdLabel" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="10px" 
+		      android:textColor="#0099CC"
+		      android:text="Receiver ID"
+		      />
+		  <TextView android:id="@+id/receiverId" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="5px" 
+		      android:textColor="#0099CC"/>
+		  <TextView android:id="@+id/receiverNameLabel" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="10px" 
+		      android:textColor="#0099CC"
+		      android:text="Receiver Name"
+		      />
+		  <TextView android:id="@+id/receiverName" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="5px" 
+		      android:textColor="#0099CC"/>		      	  
+	  </LinearLayout>
+	   <LinearLayout
+	       android:orientation="horizontal"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content">
+		  <TextView android:id="@+id/receiverEmailLabel" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="10px" 
+		      android:textColor="#0099CC"
+		      android:text="Receiver Email:"
+		      />
+		  <TextView android:id="@+id/receiverEmail" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="5px" 
+		      android:textColor="#0099CC"/>
+	  </LinearLayout>	  		    	     
+	   <LinearLayout
+	       android:orientation="horizontal"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content">
+		  <TextView android:id="@+id/createDateLabel" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="10px" 
+		      android:textColor="#0099CC"
+		      android:text="Create Date:"
+		      />
+		  <TextView android:id="@+id/createDate" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="5px" 
+		      android:textColor="#0099CC"/>
+	  </LinearLayout>   
+	   <LinearLayout
+	       android:orientation="horizontal"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content">
+		  <TextView android:id="@+id/revealDateLabel" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="10px" 
+		      android:textColor="#0099CC"
+		      android:text="Reveal Date:"
+		      />
+		  <TextView android:id="@+id/revealDate" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="5px" 
+		      android:textColor="#0099CC"/>
+	  
+	  </LinearLayout>
+	   <LinearLayout
+	       android:orientation="horizontal"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content">
+		  <TextView android:id="@+id/notifyDateLabel" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="10px" 
+		      android:textColor="#0099CC"
+		      android:text="Notify Date"
+		      />
+		  <TextView android:id="@+id/notifyDate" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="5px" 
+		      android:textColor="#0099CC"/>			  
+		</LinearLayout>  
+	   <LinearLayout
+	       android:orientation="horizontal"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content">
+		  <TextView android:id="@+id/latitudeLabel" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="10px" 
+		      android:textColor="#0099CC"
+		      android:text="Latitude:"
+		      />
+		  <TextView android:id="@+id/latitude" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="5px" 
+		      android:textColor="#0099CC"/>
+		  
+	  </LinearLayout>
+	   <LinearLayout
+	       android:orientation="horizontal"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content">
+		  <TextView android:id="@+id/longitudeLabel" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="10px" 
+		      android:textColor="#0099CC"
+		      android:text="Longitude:"
+		      />
+		  <TextView android:id="@+id/longitude" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="5px" 
+		      android:textColor="#0099CC"/>		  
+	   </LinearLayout>  	  
+	   <LinearLayout
+	       android:orientation="horizontal"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content">
+		  <TextView android:id="@+id/addressLabel" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="10px" 
+		      android:textColor="#0099CC"
+		      android:text="Address:"
+		      />
+		  <TextView android:id="@+id/address" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="5px" 
+		      android:textColor="#0099CC"/>
+	  </LinearLayout>
+	   <LinearLayout
+	       android:orientation="horizontal"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content">
+		  <TextView android:id="@+id/currentSpeedLabel" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="10px" 
+		      android:textColor="#0099CC"
+		      android:text="Current Speed:"
+		      />
+		  <TextView android:id="@+id/currentSpeed" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="5px" 
+		      android:textColor="#0099CC"/>
+		  <TextView android:id="@+id/currentHeadingLabel" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="10px" 
+		      android:textColor="#0099CC"
+		      android:text="Heading:"
+		      />
+		  <TextView android:id="@+id/currentHeading" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="5px" 
+		      android:textColor="#0099CC"/>
+		  <TextView android:id="@+id/distanceFromUserToMessageLabel" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="10px" 
+		      android:textColor="#0099CC"
+		      android:text="Distance:"
+		      />
+		  <TextView android:id="@+id/distanceFromUserToMessage" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="5px" 
+		      android:textColor="#0099CC"/>		  		  
+	  </LinearLayout>	  
+		 <LinearLayout
+		       android:orientation="horizontal"
+		       android:layout_width="wrap_content" 
+		       android:layout_height="wrap_content" 
+		       
+		       >	       
+				    <Button
+				       android:id="@+id/replyMessageBtn"
+				       android:layout_width="wrap_content"
+				       android:layout_height="fill_parent"
+				       style="?android:attr/buttonStyleSmall"
+				       android:text="Reply"/>	
+				    <Button
+				       android:id="@+id/deleteMessageBtn"
+				       android:layout_width="wrap_content"
+				       android:layout_height="fill_parent"
+				       style="?android:attr/buttonStyleSmall"
+				      android:text="Delete" />	           
+				    <Button
+				       android:id="@+id/reportSpamBtn"
+				       android:layout_width="wrap_content"
+				       android:layout_height="fill_parent"
+				       style="?android:attr/buttonStyleSmall"
+				       android:text="Report As Spam" />
+			     	          
+		   </LinearLayout>		  
+	  </LinearLayout>
+  	  	  	  	  	  	  	  
+    </LinearLayout>
+    

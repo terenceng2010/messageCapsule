@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:weightSum="10"
+   >
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="fill_parent"
+         android:orientation="vertical"
+         android:layout_weight="1"
+          >
+
+	    <ListView 
+	       android:id="@+id/MessageListViewId"
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"/>
+	    
+	     <TextView android:id="@android:id/empty"
+	               android:layout_width="match_parent"
+	               android:layout_height="match_parent"
+	               android:background="#000000"
+	               android:textColor="#FFFFFF"
+	               android:text="No messages Yet..."/>
+
+     </LinearLayout>
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="fill_parent"
+         android:orientation="vertical" 
+         
+           android:layout_weight="9"
+           
+          
+         >  
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              >
+             
+
+		         <EditText
+		             android:id="@+id/FilteringMessageByBodyET"
+		             android:layout_width="150dp"
+		             android:layout_height="wrap_content"
+		             android:ems="10"
+		              >
+		
+		             <requestFocus />
+		         </EditText>
+		         
+		          <Button
+		             android:id="@+id/FilteringMessageByBodyBtn"
+		             style="?android:attr/buttonStyleSmall"
+		             android:layout_width="50dp"
+		             android:layout_height="wrap_content"
+		             android:text="Filter" 
+		             android:onClick="filteringMessage"
+		             /> 
+		             
+   		              		               		          
+         </LinearLayout>
+     </LinearLayout>
+   
+</LinearLayout>

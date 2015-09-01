@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Message Notify Date" />
+    
+        <DatePicker
+            android:id="@+id/messageNotifyDatePicker"
+            android:calendarViewShown="false"
+            android:startYear="2013"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TimePicker
+            android:id="@+id/messageNotifyTimePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+        <Spinner
+            android:id="@+id/messageNotifyTimeZoneSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/messageNotifyCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do not Notify" />
+        
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message Body Reveal Date" />
+    
+        <DatePicker
+            android:id="@+id/messageRevealDatePicker"
+            android:calendarViewShown="false"
+            android:startYear="2013"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TimePicker
+            android:id="@+id/messageRevealTimePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/messageRevealTimeZoneSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+</LinearLayout>

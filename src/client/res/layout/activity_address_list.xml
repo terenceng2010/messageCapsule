@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:weightSum="10"
+   >
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="fill_parent"
+         android:orientation="vertical"
+         android:layout_weight="4"
+          >
+
+	    <ListView 
+	       android:id="@+id/ListViewId"
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"/>
+	    
+	     <TextView android:id="@android:id/empty"
+	               android:layout_width="match_parent"
+	               android:layout_height="match_parent"
+	               android:background="#000000"
+	               android:textColor="#FFFFFF"
+	               android:text="No Friend List Yet...add or invite some friends!"/>
+
+     </LinearLayout>
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="fill_parent"
+         android:orientation="vertical" 
+         
+           android:layout_weight="6"
+           
+          
+         >
+	     
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" 
+             android:layout_gravity="center"
+             >
+             
+		          <TextView
+		             android:layout_width="300dp"
+		             android:layout_height="wrap_content"
+		             android:text="Current Location"
+		             android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		             
+   		            		               		          
+         </LinearLayout>
+
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" 
+             android:layout_gravity="center"
+             >
+             
+		             
+		          <TextView 
+		             android:layout_width="75dp"
+		             android:layout_height="wrap_content"
+		             android:text="Latitude:"
+		             android:textAppearance="?android:attr/textAppearanceSmall" />
+		          
+		          <TextView
+		             android:id="@+id/currentLatitudeTV"
+		             android:layout_width="75dp"
+		             android:layout_height="wrap_content"
+		             android:text=""
+		             android:textAppearance="?android:attr/textAppearanceSmall" />	
+		             	          
+		          <TextView
+		             android:layout_width="75dp"
+		             android:layout_height="wrap_content"
+		             android:text="Longitude:"
+		             android:textAppearance="?android:attr/textAppearanceSmall" />
+
+		          <TextView
+		             android:id="@+id/currentLongitudeTV"
+		             android:layout_width="75dp"
+		             android:layout_height="wrap_content"
+		             android:text=""
+		             android:textAppearance="?android:attr/textAppearanceSmall" />		          		              		               		          
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              >
+             
+
+		         <EditText
+		             android:id="@+id/currentAddressET"
+		             android:layout_width="250dp"
+		             android:layout_height="wrap_content"
+		             android:ems="10"  >  "
+		
+		             <requestFocus />
+		         </EditText>
+		         
+		          <Button
+		             android:id="@+id/addAddressBtn"
+		             style="?android:attr/buttonStyleSmall"
+		             android:layout_width="50dp"
+		             android:layout_height="wrap_content"
+		             android:text="Add" 
+		             android:onClick="addAddressBtn"
+		             /> 
+		             
+   		              		               		          
+         </LinearLayout>
+          <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" 
+              android:layout_gravity="center"
+             >
+    	          
+				   <Button
+		             android:id="@+id/deleteListBtn"
+		             style="?android:attr/buttonStyleSmall"
+		             android:layout_width="300dp"
+		             android:layout_height="wrap_content"
+		             android:onClick="deleteList"
+		             android:text="Delete List" />                    		              		               		          
+         </LinearLayout>        
+
+
+
+
+     </LinearLayout>
+   
+</LinearLayout>

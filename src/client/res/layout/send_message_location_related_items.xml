@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/latitudeTVLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/latitude"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <TextView
+            android:id="@+id/latitudeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall" />        
+        <TextView
+            android:id="@+id/longtiudeTVLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/longitude"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <TextView
+            android:id="@+id/longtiudeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <TextView
+            android:id="@+id/addressTVLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <TextView
+            android:id="@+id/addressTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <TextView
+            android:id="@+id/publicMsgLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Public Message?"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <ToggleButton
+            android:id="@+id/publicMsgToggleBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Public Message?" 
+           
+            />                           
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/movableBoolean"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+                                             
+        <ToggleButton
+            android:id="@+id/movableMessageToggleBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton" 
+           
+            />    
+        <TextView
+            android:id="@+id/SpeedTVLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Initial Speed (km/h):"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+         <TextView
+            android:id="@+id/SpeedTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N/A"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <TextView
+            android:id="@+id/HeadingTVLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Heading:"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+         <TextView
+            android:id="@+id/HeadingTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N/A"
+            android:textAppearance="?android:attr/textAppearanceSmall" />              
+</LinearLayout>

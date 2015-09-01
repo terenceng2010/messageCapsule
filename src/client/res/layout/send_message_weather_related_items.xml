@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        <TextView
+            android:id="@+id/temperatureLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperature as Condition?"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <ToggleButton
+            android:id="@+id/temperatureMsgToggleBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperature as Condition?" 
+           
+            />  
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/temperatureBoolean"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/higherTempRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/higherTemp" />
+
+            <RadioButton
+                android:id="@+id/smallThanTempRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/smallThanTemp" />
+            
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/seekbarvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="changing degree celsius"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />    
+
+</LinearLayout>

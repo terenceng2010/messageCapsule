@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">訊息膠囊</string>
+    <string name="receievMessageBtn">接收訊息</string>
+    <string name="sendMessageBtn">傳送訊息</string>
+    <string name="title_activity_login">登入</string>
+    <string name="title_activity_register">註冊</string>
+    <string name="title_activity_send_message">傳送訊息</string>
+
+</resources>

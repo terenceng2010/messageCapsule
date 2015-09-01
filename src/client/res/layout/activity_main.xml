@@ -1,0 +1,91 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+ 
+        <Button
+            android:id="@+id/sendMessageBtn"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+
+            android:drawableTop="@drawable/send_message_icon_v2_01"
+           
+            android:text="@string/sendMessageBtn" />  
+                        
+        <Button
+            android:id="@+id/sentMessageBtn"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+
+            android:drawableTop="@drawable/sent_message_icon_v2_01"
+            
+            android:text="Messages already Sent" />
+
+
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+         <Button
+            android:id="@+id/receiveMessageBtn"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+
+            android:drawableTop="@drawable/receive_message_icon_v2_02"
+            
+            android:text="@string/receiveMessageBtn" />
+
+        <Button
+            android:id="@+id/receivedMessageBtn"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+
+            android:drawableTop="@drawable/received_message_icon_v2_02"
+            
+            android:text="Messages Received" />             
+         </LinearLayout>   
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+
+        <Button
+            android:id="@+id/settingsBtn"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+			
+           android:drawableTop="@drawable/setting"       
+            android:text="Settings" />      
+            
+        <Button
+            android:id="@+id/friendListBtn"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+			
+           android:drawableTop="@drawable/user"       
+            android:text="Friend List" />                     
+         </LinearLayout>   
+
+    </LinearLayout>
+ </ScrollView>

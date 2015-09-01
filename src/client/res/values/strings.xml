@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Message Capsule</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_gcmintent_service">GCMIntentService</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_login">Login</string>
+    <string name="sendMessageBtn">Send a New Message</string>
+    <string name="receiveMessageBtn">Receive New Messages</string>
+    <string name="title_activity_send_message">SendMessage</string>
+    <string name="title_activity_receive_message">ReceiveMessage</string>
+    <string name="title_activity_my_list_fragment">MyListFragment</string>
+    <string name="title_activity_message_received">Message Received</string>
+    <string name="recipientEmail">Recipient Email</string>
+    <string name="messageBody">Message Body</string>
+    <string name="DateBoolean">Message reveal by Date?</string>
+    <string name="locationBoolean">Message reveal By location?</string>
+    <string name="movableBoolean">Movable Message?</string>
+    <string name="weatherCondtionBoolean">Message reveal by weather?</string>
+    <string name="temperatureBoolean">Temperature</string>
+    <string name="higherTemp">Higher than or equal to</string>
+    <string name="smallThanTemp">Smaller than</string>
+    <string name="weatherCondtion">Weather Condition</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="address">Address</string>
+
+    <string-array name="wetherConditionItems">
+        <item>tornado</item>
+        <item>tropical storm</item>
+        <item>hurricane</item>
+        <item>severe thunderstorms</item>
+        <item>thunderstorms</item>
+        <item>mixed rain and snow</item>
+        <item>mixed rain and sleet</item>
+        <item>mixed snow and sleet</item>
+        <item>freezing drizzle</item>
+        <item>drizzle</item>
+        <item>freezing rain</item>
+        <item>showers</item>
+        <item>showers</item>
+        <item>snow flurries</item>
+        <item>light snow showers</item>
+        <item>blowing snow</item>
+        <item>snow</item>
+        <item>hail</item>
+        <item>sleet</item>
+        <item>dust</item>
+        <item>foggy</item>
+        <item>haze</item>
+        <item>smoky</item>
+        <item>blustery</item>
+        <item>windy</item>
+        <item>cold</item>
+        <item>cloudy</item>
+        <item>mostly cloudy (night)</item>
+        <item>mostly cloudy (day)</item>
+        <item>partly cloudy (night)</item>
+        <item>partly cloudy (day)</item>
+        <item>clear (night)</item>
+        <item>sunny</item>
+        <item>fair (night)</item>
+        <item>fair (day)</item>
+        <item>mixed rain and hail</item>
+        <item>hot</item>
+        <item>isolated thunderstorms</item>
+        <item>scattered thunderstorms</item>
+        <item>scattered showers</item>
+        <item>heavy snow</item>
+        <item>scattered snow showers</item>
+        <item>heavy snow</item>
+        <item>partly cloudy</item>
+        <item>thundershowers</item>
+        <item>snow showers</item>
+        <item>isolated thundershowers</item>
+    </string-array>
+
+    <string name="messageSentSuccess">Message Sent Successfully</string>
+    <string name="mesasgeSentFail">Message Sent Fail</string>
+    <string name="title_activity_message_receive_for_location">Receive Location Message</string>
+    <string name="title_activity_friend_list">Friend List</string>
+    <string name="title_activity_import_contact">Import Contact</string>
+    <string name="title_activity_tilt">Get Initial Speed</string>
+    <string name="title_activity_compass">Get Direction</string>
+    <string name="title_activity_address_list">Address List</string>
+    <string name="title_activity_rceceive_message">RceceiveMessageActivity</string>
+    <string name="title_activity_message_received_for_location_in_ar_view">Receive Location Message - AR View</string>
+    <string name="title_activity_stat">Stat</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="title_activity_sent_message">SentMessageActivity</string>
+    <string name="title_activity_sent_location_message">SentLocationMessageActivity</string>
+    <string name="title_activity_sent_location_message_web_view">SentLocationMessageWebViewActivity</string>
+
+</resources>
